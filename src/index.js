@@ -31,7 +31,7 @@ async function startApolloServer() {
     typeDefs,
     resolvers,
     context: ({ req, res, ...rest }) => {
-    //   console.log("rest rest rest ", rest);
+      console.log("rest rest rest ", rest);
       // console.log("q2 q2 q2 ", req);
       // console.log("q3 q3 q3 ", res);
     }
